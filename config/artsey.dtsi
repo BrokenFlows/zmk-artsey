@@ -285,6 +285,13 @@
 };
 
 /*****************************************
+ * Debounce key presses
+ *****************************************/
+&kscan0 {
+    debounce-period = <15>;
+};
+
+/*****************************************
  * Standard ARTSEY layer activation definitions
  * These should NOT be changed and are global in scope
  *****************************************/
